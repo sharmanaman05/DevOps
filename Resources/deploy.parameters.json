@@ -1,0 +1,27 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "aksClusterName": {
+            "value": "aks101cluster-vmss"
+        },
+        "location": {
+            "value": "" 
+        },
+        "dnsPrefix": {
+            "value": "" 
+        },
+        "osDiskSizeGB": {
+            "value": 0
+        },
+        "agentCount": {
+            "value": 2
+        },
+        "agentVMSize": {
+            "value": "Standard_D2s_v3"
+        },
+        "osType": {
+            "value": "Linux"
+        }
+    }
+}
