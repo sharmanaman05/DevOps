@@ -75,6 +75,15 @@ Create a cluster and get credentials for `kubectl`:
 Install Kubectl Utility
     az aks install-cli
 
+## Connect ACR to AKS
+
+   AKS_NAME=youraksname
+   ACR_NAME=youracrname
+   RG_NAME=your_resource_group_name
+
+   az aks update -n $AKS_NAME -g $RG_NAME \
+      --attach-acr $(az acr show -n $ACR_NAME --query "id" -o tsv)
+      
 ## Kubernetes deployment
 
     kubectl apply -f api.yaml
