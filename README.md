@@ -78,7 +78,9 @@ Install Kubectl Utility
 ## Connect ACR to AKS
 
    AKS_NAME=youraksname
+   
    ACR_NAME=youracrname
+   
    RG_NAME=your_resource_group_name
 
    az aks update -n $AKS_NAME -g $RG_NAME \
