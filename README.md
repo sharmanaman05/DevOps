@@ -7,11 +7,16 @@ Template for a Python FastAPI with Dockerfile and configuration for Kubernetes
 
  2. Resources : 
         a. architecture.drawio.png : Solution architecture
+        
         b. azuredeploy.json : ARM template to deploy AKS cluster
-        3. deploy.parameters.json : Parameter file for AKS aRM
-        4. pipeline-deploy.yaml : Yaml file for deployment Pipeline in azure devops
-        5. pipeline-dockerbuild.yaml : Yaml pipeline for Building docker image and pushing image in ACR
-        6. word-replace.PNG : Sample output after tunning docker file
+        
+        c. deploy.parameters.json : Parameter file for AKS arm
+        
+        d. pipeline-deploy.yaml : Yaml file for deployment Pipeline in azure devops
+        
+        e. pipeline-dockerbuild.yaml : Yaml pipeline for Building docker image and pushing image in ACR
+        
+        f. word-replace.PNG : Sample output after tunning docker file
     
 3. api.yaml : Yaml file to create kubernetes deployment and service
 
