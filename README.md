@@ -4,6 +4,7 @@ Template for a Python FastAPI with Dockerfile and configuration for Kubernetes
 
 ## structure 
  1. App : python api to replace word
+
  2. Resources : 
         a. architecture.drawio.png : Solution architecture
         b. azuredeploy.json : ARM template to deploy AKS cluster
@@ -13,8 +14,11 @@ Template for a Python FastAPI with Dockerfile and configuration for Kubernetes
         6. word-replace.PNG : Sample output after tunning docker file
     
 3. api.yaml : Yaml file to create kubernetes deployment and service
+
 4. autoscale.yaml : yaml pipeline to autoscale pods 
+
 5. dockerfile : Dockerfile to create app container
+
 6. requirements.txt : Dependencies required to run python code.
 
 
